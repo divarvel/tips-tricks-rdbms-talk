@@ -1,6 +1,6 @@
 % Tips and Tricks for Clean RDB Schemas
 % Clément Delafargue
-% MixIT 2015-04-16
+% Nantes JUG 2015-05-11
 
 # I'm online!
 
@@ -533,7 +533,7 @@ as enum('pending', 'validated');
 
 -------------------------------------------
 
-## Moot
+![](./assets/moot.jpg)
 
 -------------------------------------------
 
@@ -600,7 +600,8 @@ SELECT 'a=>1,a=>2'::hstore;
 # Json / Jsonb
 
 ```sqlpostgresql
-SELECT ('{ "a": "b"}'::jsonb)->>'a' as field;
+SELECT
+('{ "a": "b"}'::jsonb)->>'a' as field;
   field
 ----------
  "b"
@@ -667,11 +668,6 @@ select <fields> from sub_request;
 ```
 
 -------------------------------------------
-
-**Window functions**
-
-```sqlpostgresql
-```
 
 # Shameless plug
 <video src="/home/clement/Images/lol/austin-omg.webm" loop></video>
