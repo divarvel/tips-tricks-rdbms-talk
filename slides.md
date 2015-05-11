@@ -114,7 +114,7 @@ I've played with lots of NoSQL dbs over the years
 
 # Exploratory queries
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/where-are-you.webm" loop></video>
+<video src="/home/clement/Images/lol/where-are-you.webm" loop></video>
 
 <details>
   Very easy to mix and match data. Data can be used in unforeseen ways due to good composability
@@ -125,7 +125,7 @@ I've played with lots of NoSQL dbs over the years
 
 # Reliance on the data model
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/trust-fall.webm" loop></video>
+<video src="/home/clement/Images/lol/trust-fall.webm" loop></video>
 
 <details>
   All of this works only if you have a properly designed schema
@@ -151,7 +151,7 @@ I've played with lots of NoSQL dbs over the years
 
 # Don't let a <span class="red">program</span> design your schema 
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/robot-door.webm" loop></video>
+<video src="/home/clement/Images/lol/robot-door.webm" loop></video>
 
 <details>
   The DB schema is central to your architecture. Handle it yourself
@@ -159,7 +159,7 @@ I've played with lots of NoSQL dbs over the years
 
 # Avoid ORMs
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/rube-goldberg.webm" loop></video>
+<video src="/home/clement/Images/lol/rube-goldberg.webm" loop></video>
 
 <details>
   ORMs may be useful in certain, very specific cases, often related to operational concerns,
@@ -169,7 +169,7 @@ I've played with lots of NoSQL dbs over the years
 
 # DB-agnosticism
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/trap.webm" loop></video>
+<video src="/home/clement/Images/lol/trap.webm" loop></video>
 
 <details>
   If you're not using db-specific features, you may not need a rdbms at all
@@ -178,7 +178,7 @@ I've played with lots of NoSQL dbs over the years
 
 # Use postgreSQL
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/elephant-jump.webm" loop></video>
+<video src="/home/clement/Images/lol/elephant-jump.webm" loop></video>
 
 <details>
   If you want to use open source stuff
@@ -187,12 +187,12 @@ I've played with lots of NoSQL dbs over the years
 
 -------------------------------------------
 
-<video src="assets/video.mov" loop></video>
+<video src="assets/db-install.webm" loop></video>
 
 -------------------------------------------
 
 # Avoid ORMs
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/rube-goldberg.webm" loop></video>
+<video src="/home/clement/Images/lol/rube-goldberg.webm" loop></video>
 
 -------------------------------------------
 
@@ -262,7 +262,7 @@ create.select(BOOK.TITLE, AUTHOR.FIRST_NAME, AUTHOR.LAST_NAME)
 
 # DRY =!> ORM
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/cat-waterballoon.webm" loop></video>
+<video src="/home/clement/Images/lol/cat-waterballoon.webm" loop></video>
 
 <details>
   You can stay dry without an ORM.
@@ -270,9 +270,9 @@ create.select(BOOK.TITLE, AUTHOR.FIRST_NAME, AUTHOR.LAST_NAME)
 
 -------------------------------------------
 
-# Keep in control of the fetching depth
+# Stay in control of the fetching depth
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/abyss.webm" loop></video>
+<video src="/home/clement/Images/lol/abyss.webm" loop></video>
 
 <details>
   With lazy loading, you can have complex queries automatically performed without joins.
@@ -369,7 +369,7 @@ create.select(BOOK.TITLE, AUTHOR.FIRST_NAME, AUTHOR.LAST_NAME)
 
 # Design with Querying in mind
 
-![](assets/quest.gif)
+<video src="/home/clement/Images/lol/quest.webm" loop></video>
 
 -------------------------------------------
 
@@ -379,7 +379,7 @@ create.select(BOOK.TITLE, AUTHOR.FIRST_NAME, AUTHOR.LAST_NAME)
 
 # Split data with Querying in mind
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/gun-logs.webm" loop></video>
+<video src="/home/clement/Images/lol/gun-logs.webm" loop></video>
 
 -------------------------------------------
 
@@ -447,23 +447,23 @@ select <fields> from
 (or random IDs)
 
 # Prevent entity enumeration
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/hacking.webm" loop></video>
+<video src="/home/clement/Images/lol/hacking.webm" loop></video>
 
 # Prevent growth rate disclosure
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/hacking.webm" loop></video>
+<video src="/home/clement/Images/lol/hacking.webm" loop></video>
 
 # Avoid linking the wrong table
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/table-flip.webm" loop></video>
+<video src="/home/clement/Images/lol/table-flip.webm" loop></video>
 
 
 # Default to not null
 ![](assets/no-value.png)
 
 # Don't fear the join
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/elephants.webm" loop></video>
+<video src="/home/clement/Images/lol/elephants.webm" loop></video>
 
 # Avoid deletions
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/delete.webm" loop></video>
+<video src="/home/clement/Images/lol/delete.webm" loop></video>
 
 # Avoid deletions
 
@@ -490,7 +490,7 @@ deleted_at
 
 # No more integers used as flags
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/lana-nope.webm" loop></video>
+<video src="/home/clement/Images/lol/lana-nope.webm" loop></video>
 
 -------------------------------------------
 
@@ -583,7 +583,7 @@ create table reservation(
 ```
 
 # You can dump K/V data
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/shape-toy.webm" loop></video>
+<video src="/home/clement/Images/lol/shape-toy.webm" loop></video>
 
 # Hstore
 
@@ -595,7 +595,7 @@ SELECT 'a=>1,a=>2'::hstore;
 ```
 
 # You can dump JSON data
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/shape-toy.webm" loop></video>
+<video src="/home/clement/Images/lol/shape-toy.webm" loop></video>
 
 # Json / Jsonb
 
@@ -674,7 +674,7 @@ select <fields> from sub_request;
 ```
 
 # Shameless plug
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/austin-omg.webm" loop></video>
+<video src="/home/clement/Images/lol/austin-omg.webm" loop></video>
 
 
 
@@ -790,7 +790,7 @@ post_tag:
 
 # Thanks
 
-<video src="http://clementd-files.cellar-c1.clvrcld.net/lol/axolotl.webm" loop></video>
+<video src="/home/clement/Images/lol/axolotl.webm" loop></video>
 
 # Thanks
 
